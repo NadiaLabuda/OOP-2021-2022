@@ -13,20 +13,24 @@ public class Cat extends Animal
         }
         else
         {
-            System.out.println("I'm dead!");
+            System.out.println("Im dead");
         }
     }
+
 
     public int getNumLives() {
         return numLives;
     }
 
+
     public void setNumLives(int numLives) {
         this.numLives = numLives;
     }
 
+
     public Cat(String name)
     {
         super(name);
+        numLives = 9;
     }
-}
+} 
