@@ -10,6 +10,7 @@ public class Main
         processing.core.PApplet.runSketch( a, new HelloProcessing());
     }
 
+<<<<<<< HEAD
     public static void bugZap()
 	{
 		String[] a = {"MAIN"};
@@ -28,6 +29,8 @@ public class Main
         processing.core.PApplet.runSketch( a, new Arrays());
     }
 
+=======
+>>>>>>> 11c64d0c7d02695b5fa5b206f1e71628adb43544
     public void cat()
     {
         System.out.println("Hello world");
@@ -52,6 +55,10 @@ public class Main
             cat.kill();
         }
         cat.kill();
+    }
+    public static void main(String[] args)
+    {
+        helloProcessing();
 
 <<<<<<< HEAD
 =======
